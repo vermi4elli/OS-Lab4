@@ -5,7 +5,8 @@ To get everything clear:
 > __Critical path__ is the longest path from a given vertice to the END vertice.   
      
 At the same time,     
-> __Critical time__ is the time it takes to travel the critical path from the given vertice.
+> __Critical time__ is the time it takes to travel the critical path from the given vertice.      
+The variant is: 21 (number of my student's record-book) mod 13 (amount of variants) + 1 (to eliminate the possibility of the variant being equal to 0) = 9.
 ## The algorithm briefly
 To determine the critical path the first thing to do would be to determine the critical times of the nodes. In order to do that
 we start from the end node, 1-by-1 walking through all of his predeccessors and check the critical time of those nodes. Repeated until the start node's children are all set and good to be proceeded into finding the critical path.   
