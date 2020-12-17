@@ -16,10 +16,10 @@ The path finding is really simple: starting with the Start node, move to the nod
 + ```void PrintCriticalPath()``` function - prints the critical path in a from 'nodeStart -> node2 -> ... -> nodeEnd' via the algorithm described above.
 ## The algorithm demonstration
 First of all, I drew an an oriented, weighted, acyclic process graph:
-![The unsolved version of the graph](/images/example_unsolved.jpg "The unsolved version of the graph")
+![The unsolved version of the graph](/assets/example_unsolved.jpg "The unsolved version of the graph")
 The numbers in brackets show the weight of the node, while the numbers in the circles are the number of the nodes.
 After executing the program we can see the next result:
-![The program execution result](/images/example_result.jpg "The program execution result")
+![The program execution result](/assets/example_result.jpg "The program execution result")
 Solving it on paper, the next result appears:
-![The resolved version of the graph](/images/example_resolved.jpg "The resolved version of the graph")
+![The resolved version of the graph](/assets/example_resolved.jpg "The resolved version of the graph")
 As you might've guessed, the paths are completely the same.
